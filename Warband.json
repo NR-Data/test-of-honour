@@ -1,0 +1,4033 @@
+{
+  "catalogue": {
+    "name": "Warband",
+    "id": "66f4-d7b6-bf8e-ccff",
+    "authorContact": "https://boardgamegeek.com/user/ragados",
+    "authorName": "Ragados",
+    "authorUrl": "https://www.ragados.com",
+    "battleScribeVersion": 2.03,
+    "gameSystemId": "1905-a91b-8161-d082",
+    "gameSystemRevision": 1,
+    "revision": 1,
+    "type": "catalogue",
+    "xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "entryLinks": [
+      {"name": "Bandit", "id": "d4e1-a481-e5b5-b5ba", "hidden": false, "targetId": "cca4-6037-cfdf-e797", "type": "selectionEntry"},
+      {"name": "Bandit Group", "id": "cc8e-90b8-a71c-4edf", "hidden": false, "targetId": "efc4-bf4f-be80-0f03", "type": "selectionEntry"},
+      {"name": "Bandit Hero", "id": "a8f5-7fbc-f323-41f5", "hidden": false, "targetId": "3342-647b-a0ab-d7dd", "type": "selectionEntry"},
+      {"name": "Bandit Lieutenant", "id": "e134-6176-2e3a-aae6", "hidden": false, "targetId": "2c44-039a-1109-2cd3", "type": "selectionEntry"},
+      {"name": "Mounted Bowman", "id": "78d3-bd5c-2243-c091", "hidden": false, "targetId": "ae7e-8216-9762-49d0", "type": "selectionEntry"},
+      {"name": "Masked Men Group", "id": "d455-b933-4090-c356", "hidden": false, "targetId": "187b-515f-0008-7f10", "type": "selectionEntry"},
+      {"name": "Masked Man", "id": "e0a8-c6b8-5049-79bb", "hidden": false, "targetId": "7449-99a0-ba9e-8088", "type": "selectionEntry"},
+      {"name": "Masahiro Warrior Monk", "id": "440d-ff17-a139-4839", "hidden": false, "targetId": "8df8-aa58-a244-8336", "type": "selectionEntry"},
+      {"name": "Loyal Spearmen Group", "id": "e969-e817-8b22-cf25", "hidden": false, "targetId": "0e7a-3d20-e3d9-911b", "type": "selectionEntry"},
+      {"name": "Loyal Musketmen Group", "id": "c137-db4a-0ab4-215b", "hidden": false, "targetId": "2096-3007-6db4-4fed", "type": "selectionEntry"},
+      {"name": "Loyal Bowmen Group", "id": "d447-e20a-e841-f8fd", "hidden": false, "targetId": "ede9-416b-7640-c297", "type": "selectionEntry"},
+      {"name": "Kato 'The Shadow'", "id": "b7d7-0b7e-8ea7-7097", "hidden": false, "targetId": "2266-8ad6-1ce5-7e79", "type": "selectionEntry"},
+      {"name": "Kamiizumi-Kanchou", "id": "8756-eaeb-b3e9-5f50", "hidden": false, "targetId": "195d-63d1-507f-0d2b", "type": "selectionEntry"},
+      {"name": "Hozoin In'ei", "id": "e177-8e10-259b-7244", "hidden": false, "targetId": "963b-6b35-66a0-73f5", "type": "selectionEntry"},
+      {"name": "Geisha Spy", "id": "1bc2-3bdd-7b38-ec28", "hidden": false, "targetId": "b0b5-574d-c23a-13dc", "type": "selectionEntry"},
+      {"name": "Experienced Spearmen Group", "id": "3c65-3548-7c9a-cb0c", "hidden": false, "targetId": "7fbb-23e3-e0eb-c53b", "type": "selectionEntry"},
+      {"name": "Experienced Musketmen Group", "id": "0d00-732d-a48c-2af8", "hidden": false, "targetId": "f22d-6ab1-6c86-be12", "type": "selectionEntry"},
+      {"name": "Experienced Bowmen Group", "id": "3603-86ac-13ff-8f00", "hidden": false, "targetId": "54f4-7670-fe57-2017", "type": "selectionEntry"},
+      {"name": "Devoted Samurai", "id": "2fe8-cc01-6330-4a2e", "hidden": false, "targetId": "4936-c6e9-9c35-4eb1", "type": "selectionEntry"},
+      {"name": "Daimyo Osugawa", "id": "9178-a487-2fdb-51ca", "hidden": false, "targetId": "a34c-8da2-47c4-5656", "type": "selectionEntry"},
+      {"name": "Bowman", "id": "e7a2-69a4-d458-1bf6", "hidden": false, "targetId": "5054-15fc-1121-20bb", "type": "selectionEntry"},
+      {"name": "Banzuiin Chobei", "id": "9795-e1fa-efbf-dc34", "hidden": false, "targetId": "f5fa-8509-feaf-54bc", "type": "selectionEntry"},
+      {"name": "Banner Bearer", "id": "05c4-baee-fcca-037c", "hidden": false, "targetId": "f684-0d2f-84ad-37c4", "type": "selectionEntry"},
+      {"name": "Bandit Bruiser", "id": "47b1-8c41-20d2-b774", "hidden": false, "targetId": "c7aa-cf52-4b53-050f", "type": "selectionEntry"},
+      {"name": "Bandit Bowman", "id": "6225-4884-2fd5-544e", "hidden": false, "targetId": "8fa3-f7f5-622c-f698", "type": "selectionEntry"},
+      {"name": "Mounted Hero", "id": "94be-6618-0279-9aed", "hidden": false, "targetId": "0aef-449f-5f5a-392e", "type": "selectionEntry"},
+      {"name": "Mounted Retainer", "id": "7e2d-16f7-216a-09a4", "hidden": false, "targetId": "a8a7-1b29-a3d1-33d5", "type": "selectionEntry"},
+      {"name": "Ninja", "id": "34fb-4c47-4307-ed65", "hidden": false, "targetId": "49ea-a636-b5e6-2781", "type": "selectionEntry"},
+      {"name": "Musketman", "id": "76af-2409-866f-e39f", "hidden": false, "targetId": "c3a4-5369-f582-3561", "type": "selectionEntry"},
+      {"name": "Musician", "id": "2de6-7cd8-ef2f-f6c8", "hidden": false, "targetId": "2d4e-e4b3-3835-1e6a", "type": "selectionEntry"},
+      {"name": "Mounted Sergeant", "id": "1e92-6c91-afaf-e8da", "hidden": false, "targetId": "02c3-f543-6b1f-f491", "type": "selectionEntry"},
+      {"name": "Mounted Samurai", "id": "1165-047a-ec33-1404", "hidden": false, "targetId": "83b2-bf4f-0d8d-5ed9", "type": "selectionEntry"},
+      {"name": "Sergeant of Archery", "id": "5bdf-56bf-fcf7-02db", "hidden": false, "targetId": "3cc0-4e81-12ed-b1a7", "type": "selectionEntry"},
+      {"name": "Sergeant", "id": "d443-e80e-da09-3aa4", "hidden": false, "targetId": "918b-6701-908a-fc92", "type": "selectionEntry"},
+      {"name": "Senzo 'The Thorn'", "id": "c7ed-52cf-5f3d-ec2c", "hidden": false, "targetId": "93c7-0976-1643-5964", "type": "selectionEntry"},
+      {"name": "Samurai Hero", "id": "4172-ba6c-e7ed-5e15", "hidden": false, "targetId": "cd07-fb6d-d2ec-ebc9", "type": "selectionEntry"},
+      {"name": "Ronin Thug Group", "id": "22c4-0260-61f5-ef45", "hidden": false, "targetId": "5f8b-8c96-de8a-b92d", "type": "selectionEntry"},
+      {"name": "Ronin Thug", "id": "50c0-70cb-3b24-d4da", "hidden": false, "targetId": "ee4b-2863-56a7-8b61", "type": "selectionEntry"},
+      {"name": "Renegade Musketman", "id": "60f7-3cf6-5cdb-057f", "hidden": false, "targetId": "1e0d-9679-c68d-9d74", "type": "selectionEntry"},
+      {"name": "Renegade Group", "id": "12da-726e-04df-b010", "hidden": false, "targetId": "2066-4599-883b-24e6", "type": "selectionEntry"},
+      {"name": "Renegade Bowman", "id": "fa85-d667-80d9-bdb4", "hidden": false, "targetId": "884b-d141-ac58-f215", "type": "selectionEntry"},
+      {"name": "Renegade", "id": "77dd-1276-497b-13f7", "hidden": false, "targetId": "3997-b699-d738-780b", "type": "selectionEntry"},
+      {"name": "Pauper Musketmen Group", "id": "a888-223b-6be6-f256", "hidden": false, "targetId": "cab4-da2d-5d48-a392", "type": "selectionEntry"},
+      {"name": "Pauper Musketman", "id": "f0c6-dcfa-a89d-047e", "hidden": false, "targetId": "94b6-8ee2-4f95-d995", "type": "selectionEntry"},
+      {"name": "Pauper Bowmen Group", "id": "eebd-cd37-d0ed-bf13", "hidden": false, "targetId": "47ca-07d8-9867-9021", "type": "selectionEntry"},
+      {"name": "Pauper Bowman", "id": "cf81-62cc-2add-c4f4", "hidden": false, "targetId": "fe75-ddc3-62da-6f84", "type": "selectionEntry"},
+      {"name": "Onna-Bugeisha Naginata Group", "id": "a52e-cca1-8a1a-5654", "hidden": false, "targetId": "2faf-366b-6e8e-78c7", "type": "selectionEntry"},
+      {"name": "Onna-Bugeisha Naginata", "id": "5475-7985-3702-de59", "hidden": false, "targetId": "d3d2-0224-db02-df0d", "type": "selectionEntry"},
+      {"name": "Onna-Bugeisha Bowmen Group", "id": "358b-d0f1-1d2f-4f2c", "hidden": false, "targetId": "87ba-8c89-c80f-8e18", "type": "selectionEntry"},
+      {"name": "Onna-Bugeisha Bowman", "id": "8bba-37c3-55fd-1bff", "hidden": false, "targetId": "bd90-66ae-fec3-1d4a", "type": "selectionEntry"},
+      {"name": "Onna-Bugeisha", "id": "66f7-dffe-52ab-c489", "hidden": false, "targetId": "5df9-7c29-1deb-d41f", "type": "selectionEntry"},
+      {"name": "Oda Nobunaga", "id": "7761-4fb4-5a2d-526e", "hidden": false, "targetId": "046f-041d-0e3b-b954", "type": "selectionEntry"},
+      {"name": "Ninja Lieutenant", "id": "6258-78e6-01f0-26b5", "hidden": false, "targetId": "538e-f475-1606-fceb", "type": "selectionEntry"},
+      {"name": "Ninja Hero", "id": "877d-cc51-d394-90bb", "hidden": false, "targetId": "073b-d916-3b24-b6be", "type": "selectionEntry"},
+      {"name": "Ninja Group", "id": "106f-ea25-9db3-f080", "hidden": false, "targetId": "7c95-42e4-cb13-3473", "type": "selectionEntry"},
+      {"name": "Widow Takaeda Naoko", "id": "0bcf-9ff3-780a-70c5", "hidden": false, "targetId": "247b-0313-8224-5366", "type": "selectionEntry"},
+      {"name": "Tadashi the Dishonoured", "id": "124b-50b7-5d51-899f", "hidden": false, "targetId": "6442-dba2-09f3-5e05", "type": "selectionEntry"},
+      {"name": "Spearman", "id": "1e4d-e516-4b96-970c", "hidden": false, "targetId": "8925-bc20-43ab-fa0d", "type": "selectionEntry"},
+      {"name": "Takahashi Tae", "id": "5bd2-0d2e-18f5-8013", "hidden": false, "targetId": "7d99-d011-d860-4f78", "type": "selectionEntry"},
+      {"name": "Sohei Naginata Group", "id": "80d9-2c77-e274-170e", "hidden": false, "targetId": "034b-a722-593e-cb39", "type": "selectionEntry"},
+      {"name": "Sohei Naginata", "id": "e77c-5a0e-0f8c-eaac", "hidden": false, "targetId": "6168-aba1-c61f-27d4", "type": "selectionEntry"},
+      {"name": "Sohei Bowmen Group", "id": "0be4-b5ed-0b7b-5d65", "hidden": false, "targetId": "55f3-bafd-4017-831e", "type": "selectionEntry"},
+      {"name": "Sohei Bowman", "id": "1175-14ea-d6f8-36fd", "hidden": false, "targetId": "a088-b973-9854-d3b9", "type": "selectionEntry"},
+      {"name": "Sohei Abbot", "id": "96e5-fb9a-8ee5-750f", "hidden": false, "targetId": "4f6a-5ce0-476e-9115", "type": "selectionEntry"},
+      {"name": "Wise Samurai", "id": "e7cd-ba03-a816-dd46", "hidden": false, "targetId": "33ed-2232-8ef9-44c9", "type": "selectionEntry"}
+    ],
+    "publications": [{"name": "Main Rules", "id": "66f4-d7b6-pub1"}],
+    "sharedProfiles": [
+      {
+        "name": "Unarmoured",
+        "id": "89e0-47ed-40ea-93fa",
+        "hidden": false,
+        "typeId": "d918-740c-5de2-f9f2",
+        "typeName": "Armour",
+        "characteristics": [{"name": "Properties", "$text": "+1 Agility +1 Damage against this unit", "typeId": "82b7-4e35-9df5-33e2"}]
+      },
+      {
+        "name": "Katana",
+        "id": "2878-7125-588a-070c",
+        "hidden": false,
+        "page": 16,
+        "publicationId": "66f4-d7b6-pub1",
+        "typeId": "b5e8-11e8-0204-7072",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Name", "$text": "Katana", "typeId": "e5d6-7baa-7337-5f11"},
+          {"name": "Strike", "$text": "Deep Cut", "typeId": "4d82-ca7f-c32a-230c"},
+          {"name": "Avoid", "$text": "Quick Jab", "typeId": "ed70-1f14-fe30-06cb"},
+          {"name": "Damage", "$text": "Follow Up", "typeId": "cd59-7bae-5421-e5f7"}
+        ]
+      },
+      {
+        "name": "Paired Swords",
+        "id": "436a-b272-cf56-c2eb",
+        "hidden": false,
+        "page": 16,
+        "publicationId": "66f4-d7b6-pub1",
+        "typeId": "b5e8-11e8-0204-7072",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Name", "$text": "Paired Swords", "typeId": "e5d6-7baa-7337-5f11"},
+          {"name": "Strike", "$text": "Twin Strike", "typeId": "4d82-ca7f-c32a-230c"},
+          {"name": "Avoid", "$text": "Quick Jab", "typeId": "ed70-1f14-fe30-06cb"},
+          {"name": "Damage", "$text": "Follow Up", "typeId": "cd59-7bae-5421-e5f7"}
+        ]
+      },
+      {
+        "name": "Spear",
+        "id": "74e2-cf07-48ec-57f5",
+        "hidden": false,
+        "page": 16,
+        "publicationId": "66f4-d7b6-pub1",
+        "typeId": "b5e8-11e8-0204-7072",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Name", "$text": "Spear", "typeId": "e5d6-7baa-7337-5f11"},
+          {"name": "Strike", "$text": "Impale", "typeId": "4d82-ca7f-c32a-230c"},
+          {"name": "Avoid", "$text": "Quick Jab", "typeId": "ed70-1f14-fe30-06cb"},
+          {"name": "Damage", "$text": "Follow Up", "typeId": "cd59-7bae-5421-e5f7"}
+        ]
+      },
+      {
+        "name": "Naginata",
+        "id": "da16-fa21-24c5-7199",
+        "hidden": false,
+        "page": 16,
+        "publicationId": "66f4-d7b6-pub1",
+        "typeId": "b5e8-11e8-0204-7072",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Name", "$text": "Naginata", "typeId": "e5d6-7baa-7337-5f11"},
+          {"name": "Strike", "$text": "Quick Jab", "typeId": "4d82-ca7f-c32a-230c"},
+          {"name": "Avoid", "$text": "Counter Strike", "typeId": "ed70-1f14-fe30-06cb"},
+          {"name": "Damage", "$text": "Follow Up", "typeId": "cd59-7bae-5421-e5f7"}
+        ]
+      },
+      {
+        "name": "Heavy Club",
+        "id": "253b-42f9-47fe-6472",
+        "hidden": false,
+        "page": 16,
+        "publicationId": "66f4-d7b6-pub1",
+        "typeId": "b5e8-11e8-0204-7072",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Name", "$text": "Heavy Club", "typeId": "e5d6-7baa-7337-5f11"},
+          {"name": "Strike", "$text": "Stun", "typeId": "4d82-ca7f-c32a-230c"},
+          {"name": "Avoid", "$text": "Quick Jab", "typeId": "ed70-1f14-fe30-06cb"},
+          {"name": "Damage", "$text": "Follow Up", "typeId": "cd59-7bae-5421-e5f7"}
+        ]
+      },
+      {
+        "name": "Heavy Sword",
+        "id": "2b06-f018-3a17-8692",
+        "hidden": false,
+        "page": 16,
+        "publicationId": "66f4-d7b6-pub1",
+        "typeId": "b5e8-11e8-0204-7072",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Name", "$text": "Heavy Sword", "typeId": "e5d6-7baa-7337-5f11"},
+          {"name": "Strike", "$text": "Deep Cut + Fearsome Blow", "typeId": "4d82-ca7f-c32a-230c"},
+          {"name": "Avoid", "$text": "-", "typeId": "ed70-1f14-fe30-06cb"},
+          {"name": "Damage", "$text": "Follow Up", "typeId": "cd59-7bae-5421-e5f7"}
+        ]
+      },
+      {
+        "name": "Staff",
+        "id": "3082-a57b-aa9b-fb85",
+        "hidden": false,
+        "page": 16,
+        "publicationId": "66f4-d7b6-pub1",
+        "typeId": "b5e8-11e8-0204-7072",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Name", "$text": "Staff", "typeId": "e5d6-7baa-7337-5f11"},
+          {"name": "Strike", "$text": "Quick Jab", "typeId": "4d82-ca7f-c32a-230c"},
+          {"name": "Avoid", "$text": "Backhand Strike", "typeId": "ed70-1f14-fe30-06cb"},
+          {"name": "Damage", "$text": "Follow Up", "typeId": "cd59-7bae-5421-e5f7"}
+        ]
+      },
+      {
+        "name": "Dagger",
+        "id": "88a8-9f3f-1154-b279",
+        "hidden": false,
+        "page": 16,
+        "publicationId": "66f4-d7b6-pub1",
+        "typeId": "b5e8-11e8-0204-7072",
+        "typeName": "Weapon",
+        "characteristics": [
+          {"name": "Name", "$text": "Dagger/Short Sword", "typeId": "e5d6-7baa-7337-5f11"},
+          {"name": "Strike", "$text": "Quick Jab", "typeId": "4d82-ca7f-c32a-230c"},
+          {"name": "Avoid", "$text": "Quick Jab", "typeId": "ed70-1f14-fe30-06cb"},
+          {"name": "Damage", "$text": "Follow Up", "typeId": "cd59-7bae-5421-e5f7"}
+        ]
+      },
+      {
+        "name": "Bow",
+        "id": "93b9-a295-fffc-4adf",
+        "hidden": false,
+        "page": "14, 16",
+        "publicationId": "66f4-d7b6-pub1",
+        "typeId": "8046-2df9-c644-8699",
+        "typeName": "Ranged Weapon",
+        "characteristics": [
+          {"name": "Name", "$text": "Bow", "typeId": "f809-f53b-8b90-5567"},
+          {"name": "Strike", "$text": "Fast Shot", "typeId": "37e7-604b-a59f-6e32"},
+          {"name": "Avoid", "$text": "Quick Jab", "typeId": "0221-e4e3-40d7-6808"},
+          {"name": "Damage", "$text": "Move Up", "typeId": "8d7b-c2b9-2e83-3a44"},
+          {"name": "Range", "$text": "24", "typeId": "cdee-6af8-0ef4-47f3"},
+          {"name": "DamageRoll", "$text": "3", "typeId": "7a35-5e5f-1033-7eb2"},
+          {"name": "SpecialRule", "$text": "DamageRoll 2 if range>12", "typeId": "3a30-ac47-45be-71cf"}
+        ]
+      },
+      {
+        "name": "Musket",
+        "id": "5259-3a37-7e0d-d47b",
+        "hidden": false,
+        "page": "14, 16",
+        "publicationId": "66f4-d7b6-pub1",
+        "typeId": "8046-2df9-c644-8699",
+        "typeName": "Ranged Weapon",
+        "characteristics": [
+          {"name": "Name", "$text": "Musket", "typeId": "f809-f53b-8b90-5567"},
+          {"name": "Strike", "$text": "Fast Shot", "typeId": "37e7-604b-a59f-6e32"},
+          {"name": "Avoid", "$text": "Quick Jab", "typeId": "0221-e4e3-40d7-6808"},
+          {"name": "Damage", "$text": "-", "typeId": "8d7b-c2b9-2e83-3a44"},
+          {"name": "Range", "$text": "20", "typeId": "cdee-6af8-0ef4-47f3"},
+          {"name": "DamageRoll", "$text": "4", "typeId": "7a35-5e5f-1033-7eb2"},
+          {"name": "SpecialRule", "$text": "Reload", "typeId": "3a30-ac47-45be-71cf"}
+        ]
+      },
+      {
+        "name": "Thrown Weapon",
+        "id": "066d-60b6-9558-7832",
+        "hidden": false,
+        "page": "14,16",
+        "publicationId": "66f4-d7b6-pub1",
+        "typeId": "8046-2df9-c644-8699",
+        "typeName": "Ranged Weapon",
+        "characteristics": [
+          {"name": "Name", "$text": "Thrown Weapon", "typeId": "f809-f53b-8b90-5567"},
+          {"name": "Strike", "$text": "Fast Shot", "typeId": "37e7-604b-a59f-6e32"},
+          {"name": "Avoid", "$text": "Quick Jab", "typeId": "0221-e4e3-40d7-6808"},
+          {"name": "Damage", "$text": "Follow Up", "typeId": "8d7b-c2b9-2e83-3a44"},
+          {"name": "Range", "$text": "9", "typeId": "cdee-6af8-0ef4-47f3"},
+          {"name": "DamageRoll", "$text": "2", "typeId": "7a35-5e5f-1033-7eb2"},
+          {"name": "SpecialRule", "$text": "-", "typeId": "3a30-ac47-45be-71cf"}
+        ]
+      },
+      {
+        "name": "Mounted",
+        "id": "6da5-dc91-aaa2-2e5e",
+        "hidden": false,
+        "typeId": "d918-740c-5de2-f9f2",
+        "typeName": "Armour",
+        "characteristics": [
+          {
+            "name": "Properties",
+            "$text": "Mounted warriors move up to 9\" during a Move action. Enemies armed with Spear or Naginata gain +1die on Strike and Avoid actions against mounted warriors.",
+            "typeId": "82b7-4e35-9df5-33e2"
+          }
+        ]
+      },
+      {
+        "name": "Ancient Curse",
+        "id": "dc7b-17ff-e151-81f0",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Mystical", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Battle", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Masked Men", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Appalling Luck",
+        "id": "58a3-710c-231a-6a83",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "D", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Balance",
+        "id": "b45c-dbc5-8e83-f3b9",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Maounted Samurai", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Barge Past",
+        "id": "12ce-25e9-77fc-c22e",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Strength", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Bribes",
+        "id": "2d2c-05e5-4822-cf0c",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Infamy", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Ronin", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Brilliant Plan",
+        "id": "4c54-f5c2-bd11-00fe",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Commander", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Battle", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Mounted Samurai", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Class Distinction",
+        "id": "0d7b-e015-af86-3a58",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Honour", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Mounted Samurai", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Commanding Presence",
+        "id": "2255-e6bd-95c2-670b",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Commander", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Coordinated Attack",
+        "id": "8f79-fe12-94a8-489c",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Commander", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Masked Men", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Dangerous Reputation",
+        "id": "7af6-e85e-c0ce-442a",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Infamy", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Ronin", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Debt Owed",
+        "id": "e262-6d27-78cb-0824",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Coin", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Defensive Drills",
+        "id": "5842-5a4b-2f0b-9bb9",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Commander", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Defensive Form",
+        "id": "95dd-da5e-ef33-129f",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Mastery", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Turn", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Deflect Arrow",
+        "id": "758a-2071-c0a9-5bc6",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Agility", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Turn", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Despicable",
+        "id": "13b9-05ca-48cb-3a29",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "D", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Dirty Trick",
+        "id": "ff3f-6dea-ba9f-9b5e",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Infamy", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Battle", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Ronin", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Evasion",
+        "id": "bd98-9169-ead9-0142",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Agility", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Turn", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Exceptional Armour",
+        "id": "7a86-6c74-ecf2-4a05",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Coin", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Explorer",
+        "id": "9d69-ba7b-cc4b-a5b1",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Ronin", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Fabled Weapon",
+        "id": "9efc-2a4d-11fa-388f",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Coin", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Mounted Samurai", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Family Heirloom",
+        "id": "d8c3-d458-d81b-a8db",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Coin", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Mounted Samurai", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Fencing",
+        "id": "fa63-c4bb-25da-69eb",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Mastery", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Turn", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Flip to Feet",
+        "id": "4082-6c22-5ede-ea0e",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Agility", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Pauper Soldiers", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Fountain of Blood",
+        "id": "b331-99a3-54ba-2897",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Mastery", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Turn", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "D", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Great Leader",
+        "id": "673a-d4d5-5487-99c0",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Masked Men", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Healing Herbs",
+        "id": "a446-66ef-a59a-73c4",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Knowledge", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Battle", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Pauper Soldiers", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Hidden Attacker",
+        "id": "a264-7b96-d2dc-86c7",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Infamy", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Battle", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Ronin", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Hidden Marksman",
+        "id": "592d-a2ac-b6b4-f568",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Infamy", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Battle", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Pauper Soldiers", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Honour Above All",
+        "id": "3b54-cc4f-3c45-8908",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Mounted Samurai", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Honourable",
+        "id": "27ba-030e-b7c8-d8c6",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Masked Men", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Ignore Pain",
+        "id": "de51-9ee2-65ce-1728",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Mystical", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Turn", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Masked Men", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Informant",
+        "id": "c0f4-21dc-4dcc-8729",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Knowledge", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Battle", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Pauper Soldiers", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Inspiring Speech",
+        "id": "077a-1d8d-62a0-6730",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Honour", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Battle", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Issue Challenge",
+        "id": "187b-62e6-32e0-86d5",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Honour", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Battle", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Jump Kick",
+        "id": "c63e-d551-e649-d43a",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Agility", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Turn", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Knock Down",
+        "id": "6efe-c97f-3474-7671",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Strength", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Turn", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Leap Back",
+        "id": "b18a-296e-b67f-a59b",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Agility", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "D", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Lightning Thrust",
+        "id": "a15a-3525-a904-656d",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Mastery", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Turn", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Ronin", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Local Guide",
+        "id": "5008-b33d-504b-be16",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Knowledge", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Man of the People",
+        "id": "9b7f-91dc-95e5-981f",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Pauper Soldiers", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Map",
+        "id": "890b-3005-b7ce-2c08",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Knowledge", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Turn", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Massacre",
+        "id": "f332-e4d7-84ee-1caa",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Ronin", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Master Forged Weapon",
+        "id": "ebf5-7e9e-64f7-0daa",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Coin", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Turn", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Military Scholar",
+        "id": "3c48-c269-790e-73d7",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Knowledge", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Nemesis",
+        "id": "bd42-d6e5-62e5-bed5",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Masked Men", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Offering",
+        "id": "9cf3-a67c-8814-f77d",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Mystical", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Turn", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Masked Men", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "One with Nature",
+        "id": "c188-d566-02d9-cfd4",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Agility", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "One with the Target",
+        "id": "863a-dcf0-5f32-9625",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Mastery", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Pauper Soldiers", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Perfect Aim",
+        "id": "b00b-2dbe-f6db-d73d",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Mastery", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Turn", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Perfect Moment",
+        "id": "39bd-2397-5f08-f1fb",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "D", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Plentiful Sake",
+        "id": "0fb3-d697-4390-cae8",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Coin", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing, One Battle", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Pauper Soldiers", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Poisoned Weapon",
+        "id": "f34f-f3cb-0b3d-ef42",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Infamy", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Battle", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Ronin", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Powerful Charge",
+        "id": "0294-4a39-3bce-2e67",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Strength", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Mounted Samurai", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Prayer and Devotion",
+        "id": "2215-6dc2-40fd-44d9",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Mystical", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Battle", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Masked Men", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Protector",
+        "id": "2d4d-0723-a3f4-0f9d",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Pauper Soldiers", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Proud Troops",
+        "id": "1a33-3418-06cc-af81",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Honour", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Turn", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Pure Weapon",
+        "id": "78e3-d418-2e20-7c65",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Mystical", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Masked Men", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Red Mist",
+        "id": "0d2a-2249-cf95-ff05",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Strength", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Turn", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "D", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Scum",
+        "id": "e6ec-6b92-bbad-d655",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Infamy", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Battle", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Ronin", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "The Side of Right",
+        "id": "e47a-acf6-b9ea-525a",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Honour", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Battle", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Mounted Samurai", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Single Minded",
+        "id": "1130-1a9a-33ad-2c13",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Strength", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Masked Men", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Slow Acting Poison",
+        "id": "cf2e-e748-abcc-7e69",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Infamy", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Ronin", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Special Instructions",
+        "id": "3706-8f60-493e-89d1",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Commander", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once per Battle", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Tough Hide",
+        "id": "f05b-9cc2-2a7e-c91d",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Strength", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Once", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Unbeaten",
+        "id": "ec1c-8c23-3fec-04d8",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Uncover the Secret",
+        "id": "a1c2-ab4c-752c-d8ce",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Mounted Samurai", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Vault",
+        "id": "9572-7333-9783-2044",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Agility", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Core", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Vengence",
+        "id": "2b0f-cd5d-b874-f648",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Honour", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "Ongoing", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "D", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Wealthy",
+        "id": "e2b2-a92d-8c06-0b4f",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Ronin", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      },
+      {
+        "name": "Wise",
+        "id": "a37c-5078-2822-85e3",
+        "hidden": false,
+        "typeId": "0d45-0775-fbe1-8d0e",
+        "typeName": "Skill",
+        "characteristics": [
+          {"name": "Type", "$text": "Quest", "typeId": "b9a8-d690-6fe8-b32f"},
+          {"name": "Usage", "$text": "-", "typeId": "5d6c-a8d6-a7f4-8865"},
+          {"name": "Set", "$text": "Masked Men", "typeId": "d2d7-461d-4fcc-aa3e"}
+        ]
+      }
+    ],
+    "sharedRules": [
+      {
+        "name": "Move Up",
+        "id": "6821-ca3d-1c18-8bc7",
+        "description": "The warrior makes a free move action.",
+        "hidden": false,
+        "page": 15,
+        "publicationId": "66f4-d7b6-pub1"
+      },
+      {
+        "name": "Follow Up",
+        "id": "cb5a-4085-9c57-45f4",
+        "description": "The warrior makes a free Charge action. If no enemies are in range, the warrior can Move Up instead.",
+        "hidden": false,
+        "page": 15,
+        "publicationId": "66f4-d7b6-pub1"
+      },
+      {
+        "name": "Quick Jab",
+        "id": "1cac-bd2e-0cdc-efb3",
+        "description": "Roll 1 die - if any swords are rolled, enemy warrior takes a single blood drop.",
+        "hidden": false,
+        "page": 15,
+        "publicationId": "66f4-d7b6-pub1"
+      },
+      {
+        "name": "Fast Shot",
+        "id": "221d-fe6b-df50-9a05",
+        "description": "The target warrior loses 1 die from his avoid roll.",
+        "hidden": false,
+        "page": 15,
+        "publicationId": "66f4-d7b6-pub1"
+      },
+      {
+        "name": "Backhand Strike",
+        "id": "c071-4572-f9ed-fb3c",
+        "description": "The attacker is knocked to the ground.",
+        "hidden": false,
+        "page": 15,
+        "publicationId": "66f4-d7b6-pub1"
+      },
+      {
+        "name": "Fearsome Blow",
+        "id": "1e7a-3e9e-0a0f-77a9",
+        "description": "If the attack results in a light wound, all enemy warriors within 6\" must test for loss of nerve (including target warrior).",
+        "hidden": false,
+        "page": 15,
+        "publicationId": "66f4-d7b6-pub1"
+      },
+      {
+        "name": "Stun",
+        "id": "f273-98ac-1272-a683",
+        "description": "If the target warrior fails his avoid roll then he is knocked to the ground.",
+        "hidden": false,
+        "page": 15,
+        "publicationId": "66f4-d7b6-pub1"
+      },
+      {
+        "name": "Counter Strike",
+        "id": "5117-5d24-fab9-c1fc",
+        "description": "The attacker is forced back as normal. The target warrior immediately makes a free charge action.",
+        "hidden": false,
+        "page": 15,
+        "publicationId": "66f4-d7b6-pub1"
+      },
+      {
+        "name": "Twin Strike",
+        "id": "091b-58a0-8826-ef15",
+        "description": "Target warrior looses 1 die on avoid roll.",
+        "hidden": false,
+        "page": 15,
+        "publicationId": "66f4-d7b6-pub1"
+      },
+      {
+        "name": "Deep Cut",
+        "id": "c854-4fd1-380d-0af3",
+        "description": "If the attack results in a light wound, roll one die. Every sword rolled causes an additional blood drop",
+        "hidden": false,
+        "page": 15,
+        "publicationId": "66f4-d7b6-pub1"
+      },
+      {
+        "name": "Impale",
+        "id": "7b44-fe91-242c-5214",
+        "description": "If the target warrior fails his avoid roll then attacker gets +1 die on his Damage Roll.",
+        "hidden": false,
+        "page": 15,
+        "publicationId": "66f4-d7b6-pub1"
+      },
+      {
+        "name": "Geisha Spy",
+        "id": "22d5-d557-07ef-a48d",
+        "description": "The Geisha Spy cannot be attacked with a Charge or Shoot action until she has made a Charge action. Enemies gain +1 dice on Damage rolls against the Geisha Spy.",
+        "hidden": false
+      },
+      {
+        "name": "Order the Charge",
+        "id": "d6b9-fbd2-46f1-edb9",
+        "description": "After the Sergeant makes a Move action, in addition he an order a friendly commoner within 6\" to charge as a free action. There must be a suitable target within range.",
+        "hidden": false
+      },
+      {
+        "name": "Rally the Troops",
+        "id": "3db8-b70e-8533-9fab",
+        "description": "If the Musician is within 12\" when a friendly commoner checks for loss of nerve, receive +1 die to the roll.",
+        "hidden": false
+      },
+      {
+        "name": "Defend the Flag",
+        "id": "5c98-f121-46b9-4237",
+        "description": "If the Banner Bearer is within 6\" when a friendly commoner attempts to avoid an attack, add +1 die to the roll.",
+        "hidden": false
+      },
+      {
+        "name": "Concentrate Fire",
+        "id": "fe66-7e71-bab0-ce78",
+        "description": "If the Sergeant of Archery is within 3\" when a group of bowmen shoots, the group gains +1 die to the Strike roll.",
+        "hidden": false
+      },
+      {"name": "Group 3 left", "id": "16f5-e573-f6f2-afc0", "description": "Honour +1 when 3 left in the group", "hidden": false},
+      {"name": "Group 2 or 3 left", "id": "0b7b-c29c-1c37-cbc3", "description": "Aim +1 when 2 or 3 left in the group", "hidden": false}
+    ],
+    "sharedSelectionEntries": [
+      {
+        "name": "Masahiro Warrior Monk",
+        "id": "8df8-aa58-a244-8336",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "Samurai Hero", "id": "2d1f-a7ad-31da-baa5", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 6}],
+        "infoLinks": [{"name": "Prayer and Devotion", "id": "5b31-9abe-81a6-23d1", "hidden": false, "targetId": "2215-6dc2-40fd-44d9", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "Masahiro",
+            "id": "6c12-b3c4-4acf-9fe7",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "5", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "5", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "5", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "5", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "5", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "3", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Senzo 'The Thorn'",
+        "id": "93c7-0976-1643-5964",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "Samurai Hero", "id": "d9aa-8d49-7537-e7ae", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 7}],
+        "entryLinks": [{"name": "Bow - Standard", "id": "c745-b910-6b61-1649", "hidden": false, "targetId": "710f-63fd-5768-6834", "type": "selectionEntry"}],
+        "infoLinks": [{"name": "One with the Target", "id": "e73f-cb73-c7ed-19d3", "hidden": false, "targetId": "863a-dcf0-5f32-9625", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "Senzo",
+            "id": "be45-630c-9079-f29d",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "5", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "5", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "4", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "5", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "5", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "3", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tadashi the Dishonoured",
+        "id": "6442-dba2-09f3-5e05",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "Samurai Hero", "id": "cbfb-ac9c-f9a7-b87b", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 6}],
+        "infoLinks": [{"name": "Dirty Trick", "id": "7b7c-ac2f-1099-db69", "hidden": false, "targetId": "ff3f-6dea-ba9f-9b5e", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "Tadashi",
+            "id": "5493-1f8c-4cd5-d601",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "5", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "5", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "5", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "6", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "3", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Widow Takaeda Naoko",
+        "id": "247b-0313-8224-5366",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "Samurai Hero", "id": "2d7f-cefc-ac1d-6ea4", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 8}],
+        "entryLinks": [
+          {
+            "name": "Naginata",
+            "id": "047d-f318-2177-bc6b",
+            "hidden": false,
+            "targetId": "c55b-9df7-d2d9-1148",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "3c21-cddd-f37c-0020",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "The Side of Right", "id": "f794-b37d-9a87-0b60", "hidden": false, "targetId": "e47a-acf6-b9ea-525a", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "Widow",
+            "id": "135f-e4ca-462c-624d",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "5", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "5", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "4", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "5", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "5", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "3", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mounted Hero",
+        "id": "0aef-449f-5f5a-392e",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "Samurai Hero", "id": "f0bf-142c-d053-f4d7", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 8}],
+        "profiles": [
+          {
+            "name": "MountedHero",
+            "id": "b795-3c9a-aca6-c663",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "5", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "5", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "5", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "5", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "3", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Samurai Hero",
+        "id": "cd07-fb6d-d2ec-ebc9",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "Samurai Hero", "id": "adf8-f800-22ad-4798", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 5}],
+        "entryLinks": [{"name": "Unarmoured - Upgrade", "id": "4f08-359f-7a86-a766", "hidden": false, "targetId": "5b8c-6bd3-b84a-0c8a", "type": "selectionEntry"}],
+        "profiles": [
+          {
+            "name": "SamuraiHero",
+            "id": "00da-47a9-ecec-7a01",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "5", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "5", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "5", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "5", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "5", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "3", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Weapon",
+            "id": "39ce-8d2c-a54d-1d0a",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "e6a8-9528-ff50-dc39",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "7084-6302-cd4d-7c90",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 0}],
+            "entryLinks": [
+              {"name": "Katana", "id": "9160-9995-1df9-1c50", "hidden": false, "targetId": "3088-0a6e-84bb-61aa", "type": "selectionEntry"},
+              {"name": "Bow - Upgrade", "id": "c767-e3e7-aa37-e361", "hidden": false, "targetId": "d52a-952b-2bf3-925b", "type": "selectionEntry"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Oda Nobunaga",
+        "id": "046f-041d-0e3b-b954",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "Samurai Hero", "id": "057f-7cea-c84e-091e", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 7}],
+        "infoLinks": [{"name": "Katana", "id": "41d1-deba-d760-dee2", "hidden": false, "targetId": "2878-7125-588a-070c", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "Nobunaga",
+            "id": "678a-75ea-6e67-96ff",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "5", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "6", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "5", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "6", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "5", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "3", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Oni no Kojiro",
+        "id": "1d71-784f-0c87-c2a1",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "Samurai Hero", "id": "dd0e-378c-11f6-e77c", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 6}],
+        "profiles": [
+          {
+            "name": "Kojiro",
+            "id": "90fe-b24b-0146-29f0",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "5", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "5+1", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "6", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "5", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "3", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Takahashi Tae",
+        "id": "7d99-d011-d860-4f78",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "Samurai Hero", "id": "0191-cb1f-d9ab-9839", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 6}],
+        "profiles": [
+          {
+            "name": "Takahashi",
+            "id": "e159-ce01-26ab-e6c0",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "5", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "5", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "5", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "5", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "5", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "5", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ninja Hero",
+        "id": "073b-d916-3b24-b6be",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "Samurai Hero", "id": "d217-86f4-9fe5-fc6d", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 7}],
+        "profiles": [
+          {
+            "name": "NinjaHero",
+            "id": "fe5b-6376-116a-57f3",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "5", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "5+1", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "5", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "5", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "5", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "3", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kato 'The Shadow'",
+        "id": "2266-8ad6-1ce5-7e79",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "b64e-1da4-3992-bf77", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 8}],
+        "profiles": [
+          {
+            "name": "Kato",
+            "id": "96fc-9c7b-d8d2-9e2d",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "5", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "5+1", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "5", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "5", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "5", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "3", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kamiizumi-Kanchou",
+        "id": "195d-63d1-507f-0d2b",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "1824-5215-7acb-29a2", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 7}],
+        "profiles": [
+          {
+            "name": "Kamiizumi",
+            "id": "db63-2907-0237-83c5",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "5", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "5+1", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "5", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "5", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "5", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "3", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hozoin In'ei",
+        "id": "963b-6b35-66a0-73f5",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "25c6-5b98-7165-f859", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 8}],
+        "profiles": [
+          {
+            "name": "Hozoin",
+            "id": "1fbc-a471-e04c-d88d",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "5", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "5+1", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "5", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "5", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "5", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "3", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Daimyo Osugawa",
+        "id": "a34c-8da2-47c4-5656",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "5b45-7c74-fd77-9995", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 8}],
+        "profiles": [
+          {
+            "name": "Osugawa",
+            "id": "f54d-9eb8-5380-263b",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "5", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "5", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "5", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "5", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "3", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banzuiin Chobei",
+        "id": "f5fa-8509-feaf-54bc",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "aadf-f66f-f9a4-35c4", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 6}],
+        "profiles": [
+          {
+            "name": "Banzuiin",
+            "id": "3363-4e6a-f771-4141",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "5", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "6", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "5", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "5", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "3", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bandit Hero",
+        "id": "3342-647b-a0ab-d7dd",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "81cb-e24a-4c89-0357", "hidden": false, "primary": true, "targetId": "f759-8c7f-2265-6144"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 5}],
+        "profiles": [
+          {
+            "name": "BanditHero",
+            "id": "0a27-8065-9a29-3352",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "5", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "5+1", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "5", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "4", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "2", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bandit Bruiser",
+        "id": "c7aa-cf52-4b53-050f",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "b041-2899-38c4-0b39", "hidden": false, "primary": true, "targetId": "0f5f-1d17-c057-e1a7"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 4}],
+        "profiles": [
+          {
+            "name": "BanditBruiser",
+            "id": "7275-16d9-4145-b55d",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "4", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4+1", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "5", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "4", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "2", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Geisha Spy",
+        "id": "b0b5-574d-c23a-13dc",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "f73d-ba67-42f3-afaf", "hidden": false, "primary": true, "targetId": "0f5f-1d17-c057-e1a7"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 5}],
+        "entryLinks": [{"name": "Dagger / Short Sword", "id": "cc8f-435c-fc4f-1a55", "hidden": false, "targetId": "9c35-b154-70ff-9953", "type": "selectionEntry"}],
+        "infoLinks": [
+          {"name": "Unarmoured", "id": "1aff-3087-0b1a-36be", "hidden": false, "targetId": "89e0-47ed-40ea-93fa", "type": "profile"},
+          {"name": "Geisha Spy", "id": "c3bd-796c-bd72-1931", "hidden": false, "targetId": "22d5-d557-07ef-a48d", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "GeishaSpy",
+            "id": "7825-cc69-17bb-1dcc",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "4", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "6", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "2", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mounted Samurai",
+        "id": "83b2-bf4f-0d8d-5ed9",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "968c-2e22-b930-f10b", "hidden": false, "primary": true, "targetId": "0f5f-1d17-c057-e1a7"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 6}],
+        "profiles": [
+          {
+            "name": "MountedSamurai",
+            "id": "fed5-6262-3322-71bf",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "4", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "4", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "4", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "2", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ninja Lieutenant",
+        "id": "538e-f475-1606-fceb",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "6e33-dc8e-13dd-917b", "hidden": false, "primary": true, "targetId": "0f5f-1d17-c057-e1a7"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 4}],
+        "profiles": [
+          {
+            "name": "NinjaLieutenant",
+            "id": "5a42-cc2b-c8a3-558b",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "4", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4+1", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "4", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "4", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "2", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sohei Abbot",
+        "id": "4f6a-5ce0-476e-9115",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "8dd9-899a-a6f9-6443", "hidden": false, "primary": true, "targetId": "0f5f-1d17-c057-e1a7"},
+          {"name": "Commoner", "id": "3655-a3c6-f3bf-f4d7", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 4}],
+        "profiles": [
+          {
+            "name": "SoheiAbbot",
+            "id": "48d8-a530-4f6f-df07",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "4", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "5", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "2", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Devoted Samurai",
+        "id": "4936-c6e9-9c35-4eb1",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "a1d2-19cf-d6c1-62a7", "hidden": false, "primary": true, "targetId": "0f5f-1d17-c057-e1a7"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 4}],
+        "profiles": [
+          {
+            "name": "DevotedSamurai",
+            "id": "a236-c4ae-f39d-0ea0",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "4", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "4", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "4", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "2", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Weapon",
+            "id": "e324-4cac-5636-e096",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "8d70-1587-d477-7f7f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "4378-e8c1-3238-4384",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 0}],
+            "entryLinks": [
+              {"name": "Katana", "id": "3fc1-8d73-12b1-e73f", "hidden": false, "targetId": "3088-0a6e-84bb-61aa", "type": "selectionEntry"},
+              {"name": "Bow - Upgrade", "id": "b931-3693-b238-d6f5", "hidden": false, "targetId": "d52a-952b-2bf3-925b", "type": "selectionEntry"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bandit Lieutenant",
+        "id": "2c44-039a-1109-2cd3",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "4550-c379-f6ac-c033", "hidden": false, "primary": true, "targetId": "0f5f-1d17-c057-e1a7"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 4}],
+        "profiles": [
+          {
+            "name": "BanditLieutenant",
+            "id": "d1d2-7edb-6126-c5df",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "4", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4+1", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "4", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "5", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "2", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Wise Samurai",
+        "id": "33ed-2232-8ef9-44c9",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "2687-0c8f-4a2c-0345", "hidden": false, "primary": true, "targetId": "0f5f-1d17-c057-e1a7"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 4}],
+        "profiles": [
+          {
+            "name": "WiseSamurai",
+            "id": "e71d-0a46-f544-457a",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "4", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "4", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "4", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "2", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ],
+        "selectionEntries": [
+          {
+            "name": "Weapon",
+            "id": "2afe-26b7-ae48-711c",
+            "collective": false,
+            "hidden": false,
+            "type": "upgrade",
+            "constraints": [
+              {
+                "id": "e9f8-50f9-3e65-0d58",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "ab71-6863-60e9-759f",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ],
+            "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 0}],
+            "entryLinks": [
+              {"name": "Katana", "id": "3637-6bf3-85e2-e661", "hidden": false, "targetId": "3088-0a6e-84bb-61aa", "type": "selectionEntry"},
+              {"name": "Bow - Upgrade", "id": "0352-fb91-773a-f576", "hidden": false, "targetId": "d52a-952b-2bf3-925b", "type": "selectionEntry"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Onna-Bugeisha",
+        "id": "5df9-7c29-1deb-d41f",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [{"name": "New CategoryLink", "id": "51e6-802f-97c8-af9d", "hidden": false, "primary": true, "targetId": "0f5f-1d17-c057-e1a7"}],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 4}],
+        "profiles": [
+          {
+            "name": "OnnaBugeisha",
+            "id": "7a3d-e0fc-a6ad-02b0",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "4", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "4", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "4", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "2", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bandit",
+        "id": "cca4-6037-cfdf-e797",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "8f1e-1c03-087f-8ff9", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "099e-90f8-6168-0aed", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 1}],
+        "profiles": [
+          {
+            "name": "Bandit",
+            "id": "6a61-b0ef-4b1a-4529",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3+1", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "4", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "2", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bandit Bowman",
+        "id": "8fa3-f7f5-622c-f698",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "92b3-0705-46d8-98e1", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "0fc0-1afc-849c-61e4", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [{"name": "Bow - Standard", "id": "6a8a-f7cf-9e37-05b3", "hidden": false, "targetId": "710f-63fd-5768-6834", "type": "selectionEntry"}],
+        "profiles": [
+          {
+            "name": "BanditBowman",
+            "id": "eac1-5263-137c-a4b4",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3+1", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "4", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "2", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Banner Bearer",
+        "id": "f684-0d2f-84ad-37c4",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "9277-2c33-636f-a3aa", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "f8fc-a3bd-5686-b98f", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "infoLinks": [{"name": "Defend the Flag", "id": "3606-213a-eb3d-f2e0", "hidden": false, "targetId": "5c98-f121-46b9-4237", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "BannerBearer",
+            "id": "0267-60c5-76a3-e66b",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mounted Sergeant",
+        "id": "02c3-f543-6b1f-f491",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "4902-e54c-5793-a5af", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "ac67-0f61-7570-b77b", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 3}],
+        "profiles": [
+          {
+            "name": "MountedSergeant",
+            "id": "d614-c5ec-9416-9d93",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Musician",
+        "id": "2d4e-e4b3-3835-1e6a",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "242b-eaa9-fe34-ce26", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "3036-2885-cd0a-a7bc", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "infoLinks": [{"name": "Rally the Troops", "id": "3f1c-d0b3-0a65-be37", "hidden": false, "targetId": "3db8-b70e-8533-9fab", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Musician",
+            "id": "c4f2-73b8-432b-b677",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Renegade",
+        "id": "3997-b699-d738-780b",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "9d75-6970-c916-61d2", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "7cbd-99ad-f9a5-9309", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 1}],
+        "profiles": [
+          {
+            "name": "Renegade",
+            "id": "41e3-a454-668b-e651",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mounted Retainer",
+        "id": "a8a7-1b29-a3d1-33d5",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "063a-5f8d-83f5-106d", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "85c5-241f-2b2c-0acb", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "profiles": [
+          {
+            "name": "MountedRetainer",
+            "id": "fe33-83d3-7c5e-5238",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mounted Bowman",
+        "id": "ae7e-8216-9762-49d0",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "b852-9fe4-c933-a87e", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "fa8a-ec71-f694-de57", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 3}],
+        "entryLinks": [{"name": "Bow - Standard", "id": "5322-a275-3747-98a5", "hidden": false, "targetId": "710f-63fd-5768-6834", "type": "selectionEntry"}],
+        "profiles": [
+          {
+            "name": "MountedBowman",
+            "id": "e101-3004-8231-2443",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Masked Man",
+        "id": "7449-99a0-ba9e-8088",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "1dca-6bdc-f979-2c2e", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "619b-41ef-1279-1554", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 1}],
+        "profiles": [
+          {
+            "name": "MaskedMan",
+            "id": "e91b-9eed-eda9-78b0",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bowman",
+        "id": "5054-15fc-1121-20bb",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "b489-af29-92f1-e6ed", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "4aae-3b06-eda3-accd", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [{"name": "Bow - Standard", "id": "b579-750e-103f-8ac6", "hidden": false, "targetId": "710f-63fd-5768-6834", "type": "selectionEntry"}],
+        "profiles": [
+          {
+            "name": "Bowman",
+            "id": "d5b9-a081-897e-8bf6",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ninja",
+        "id": "49ea-a636-b5e6-2781",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "fbd7-d2e1-2de7-2d25", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "00c1-f459-607e-b626", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "profiles": [
+          {
+            "name": "Ninja",
+            "id": "55ef-2dfd-cacc-10ed",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3+1", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Onna-Bugeisha Bowman",
+        "id": "bd90-66ae-fec3-1d4a",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "4a60-9c0a-a952-5cc5", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "6b6f-01c7-85a3-4ad9", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [{"name": "Bow - Standard", "id": "30e3-2051-6215-9225", "hidden": false, "targetId": "710f-63fd-5768-6834", "type": "selectionEntry"}],
+        "profiles": [
+          {
+            "name": "OnnaBugeishaBowman",
+            "id": "1b03-1c6a-3414-22be",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Onna-Bugeisha Naginata",
+        "id": "d3d2-0224-db02-df0d",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "0efe-3149-3440-8ed4", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "5fc0-25fb-6c72-2c1c", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [
+          {
+            "name": "Naginata",
+            "id": "2837-0177-fb32-999c",
+            "hidden": false,
+            "targetId": "c55b-9df7-d2d9-1148",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "c788-ada5-762e-c9f2",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "OnnaBugeishaNaginata",
+            "id": "22b1-33be-8143-d9d0",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "2", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pauper Bowman",
+        "id": "fe75-ddc3-62da-6f84",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "9281-2aeb-4a4f-eba8", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "9a1b-aae0-be55-aef4", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [{"name": "Bow - Standard", "id": "c6c4-9d28-4b22-637a", "hidden": false, "targetId": "710f-63fd-5768-6834", "type": "selectionEntry"}],
+        "profiles": [
+          {
+            "name": "PauperBowman",
+            "id": "502a-dcb8-d188-840e",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pauper Musketman",
+        "id": "94b6-8ee2-4f95-d995",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "4deb-9d44-b835-94b3", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "c127-f925-6e83-e350", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [
+          {
+            "name": "Musket",
+            "id": "1c5f-f1c6-034f-9d65",
+            "hidden": false,
+            "targetId": "1a92-daed-deda-ccb1",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "4956-ad42-380e-3bd3",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "PauperMusketman",
+            "id": "d2a4-571a-8b4b-5983",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Renegade Bowman",
+        "id": "884b-d141-ac58-f215",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "73f6-d34b-6ab9-5893", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "973c-ff89-bdd7-bccc", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [{"name": "Bow - Standard", "id": "bca6-6d95-a0aa-a84a", "hidden": false, "targetId": "710f-63fd-5768-6834", "type": "selectionEntry"}],
+        "profiles": [
+          {
+            "name": "RenegadeBowman",
+            "id": "b99f-7975-e52e-8f05",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Renegade Musketman",
+        "id": "1e0d-9679-c68d-9d74",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "d272-617f-80c7-7779", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "c62a-a225-f1c7-9e14", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [
+          {
+            "name": "Musket",
+            "id": "fd86-14e6-5f1a-3686",
+            "hidden": false,
+            "targetId": "1a92-daed-deda-ccb1",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "e9d8-cfc6-e1cb-1f54",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "RenegadeMusketman",
+            "id": "1f92-0ceb-998e-d4ef",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ronin Thug",
+        "id": "ee4b-2863-56a7-8b61",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "b5fa-384e-fd96-69c5", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "4b8a-b873-e204-eb64", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 1}],
+        "profiles": [
+          {
+            "name": "RoninThug",
+            "id": "4678-49d5-e357-a0d0",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "4", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "2", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sergeant",
+        "id": "918b-6701-908a-fc92",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "7555-ad8e-dfe4-0b95", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "51d4-fb75-3588-2f33", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "infoLinks": [{"name": "Order the Charge", "id": "3a67-819f-0608-c147", "hidden": false, "targetId": "d6b9-fbd2-46f1-edb9", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "Sergeant",
+            "id": "367a-4223-fa87-39ee",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Musketman",
+        "id": "c3a4-5369-f582-3561",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "2a46-4120-5514-fc54", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "4b7a-a881-a676-91db", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [
+          {
+            "name": "Musket",
+            "id": "0952-a989-9a1a-6185",
+            "hidden": false,
+            "targetId": "1a92-daed-deda-ccb1",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "4930-2ed5-4635-0d23",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Musketman",
+            "id": "e000-5222-b1b3-889c",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sergeant of Archery",
+        "id": "3cc0-4e81-12ed-b1a7",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "4679-5bf9-6eab-0c5e", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "8a07-d92c-6016-27c7", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 3}],
+        "entryLinks": [{"name": "Bow - Standard", "id": "fdbb-5b06-5f9c-7605", "hidden": false, "targetId": "710f-63fd-5768-6834", "type": "selectionEntry"}],
+        "infoLinks": [{"name": "Concentrate Fire", "id": "5fff-c222-1bd7-fd38", "hidden": false, "targetId": "fe66-7e71-bab0-ce78", "type": "rule"}],
+        "profiles": [
+          {
+            "name": "SergeantArchery",
+            "id": "05a3-ab3c-4ffd-4fb9",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sohei Bowman",
+        "id": "a088-b973-9854-d3b9",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "c549-3962-6126-26fd", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "0891-5de3-f111-6b1e", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [{"name": "Bow - Standard", "id": "7094-9dde-aa6b-e632", "hidden": false, "targetId": "710f-63fd-5768-6834", "type": "selectionEntry"}],
+        "profiles": [
+          {
+            "name": "SoheiBowman",
+            "id": "c8ea-940c-f5b6-a3f4",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "4", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "2", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sohei Naginata",
+        "id": "6168-aba1-c61f-27d4",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "c740-2b11-ed32-7d84", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "eab6-7a21-6f15-42d0", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [
+          {
+            "name": "Naginata",
+            "id": "a66a-7d66-cd63-6f8e",
+            "hidden": false,
+            "targetId": "c55b-9df7-d2d9-1148",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "a1a1-5bac-433a-2796",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "SoheiNaginata",
+            "id": "4a1b-da9f-40e6-a7ef",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "4", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "2", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spearman",
+        "id": "8925-bc20-43ab-fa0d",
+        "collective": false,
+        "hidden": false,
+        "type": "model",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "79a0-24b3-b300-8fd6", "hidden": false, "primary": true, "targetId": "9c04-a0a3-8e96-68d9"},
+          {"name": "Commoner", "id": "55c4-8963-e933-86ae", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 1}],
+        "entryLinks": [
+          {
+            "name": "Spear",
+            "id": "e3fa-cb7d-b686-e4a9",
+            "hidden": false,
+            "targetId": "cd86-d28a-b378-396a",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "a6e4-343c-a146-f911",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "Spearman",
+            "id": "112e-ab74-c093-950a",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Experienced Bowmen Group",
+        "id": "54f4-7670-fe57-2017",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "2a11-1509-344a-656e", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "65a5-e53f-401a-9d41", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 3}],
+        "entryLinks": [{"name": "Bow - Standard", "id": "ab7d-c1e3-c378-7198", "hidden": false, "targetId": "710f-63fd-5768-6834", "type": "selectionEntry"}],
+        "infoLinks": [
+          {"name": "Group 2 or 3 left", "id": "7eb7-9a31-6810-de56", "hidden": false, "targetId": "0b7b-c29c-1c37-cbc3", "type": "rule"},
+          {"name": "Group 3 left", "id": "f2e1-b2b2-5a5b-f64d", "hidden": false, "targetId": "16f5-e573-f6f2-afc0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "ExpBowmenGroup",
+            "id": "0b91-39c0-41c5-63bf",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "4", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3+1", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bandit Group",
+        "id": "efc4-bf4f-be80-0f03",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "1a12-9d91-28ad-3075", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "fb7d-c7cc-6fff-a054", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [
+          {
+            "name": "Katana",
+            "id": "9089-e366-6278-cde6",
+            "hidden": false,
+            "targetId": "3088-0a6e-84bb-61aa",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "f650-0e29-423e-64d5",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "Unarmoured", "id": "0d3d-52f9-3907-c9fb", "hidden": false, "targetId": "89e0-47ed-40ea-93fa", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "BanditGroup",
+            "id": "09f1-825a-5646-15f4",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3+1", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "4", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "4", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "2+1", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Masked Men Group",
+        "id": "187b-515f-0008-7f10",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "04e6-62fc-3b04-98c5", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "8df7-eac1-71e4-2ecb", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "infoLinks": [
+          {"name": "Group 2 or 3 left", "id": "e70b-7d7c-ade8-ba81", "hidden": false, "targetId": "0b7b-c29c-1c37-cbc3", "type": "rule"},
+          {"name": "Group 3 left", "id": "454b-48e4-afc3-d8e5", "hidden": false, "targetId": "16f5-e573-f6f2-afc0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "MaskedMenGroup",
+            "id": "4451-3ca3-1afd-ffbe",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "4", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3+1", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ninja Group",
+        "id": "7c95-42e4-cb13-3473",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "a487-e470-0479-a812", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "7e3a-af4e-0fcf-f2f0", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 3}],
+        "entryLinks": [
+          {
+            "name": "Thrown Weapon",
+            "id": "1b62-0f53-ebd1-973d",
+            "hidden": false,
+            "targetId": "ead2-03b0-02e9-fd14",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "b1c0-4f7a-227c-5a10",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Paired Swords",
+            "id": "da15-5c2a-3d37-ba1b",
+            "hidden": false,
+            "targetId": "bf63-09a7-1390-5385",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "a747-d865-0090-ae93",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [{"name": "Unarmoured", "id": "1539-8c1b-f06f-ab1f", "hidden": false, "targetId": "89e0-47ed-40ea-93fa", "type": "profile"}],
+        "profiles": [
+          {
+            "name": "NinjaGroup",
+            "id": "beab-4171-0e59-78b8",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4+1", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3+1", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Onna-Bugeisha Bowmen Group",
+        "id": "87ba-8c89-c80f-8e18",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "c695-7ec7-de6a-1237", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "8bc2-457a-1a43-e031", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 3}],
+        "entryLinks": [{"name": "Bow - Standard", "id": "43f4-5aa1-d8c8-75e6", "hidden": false, "targetId": "710f-63fd-5768-6834", "type": "selectionEntry"}],
+        "profiles": [
+          {
+            "name": "OnnaBugeishaBowmenGroup",
+            "id": "2aaa-9a14-ab64-25c4",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3+1", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Onna-Bugeisha Naginata Group",
+        "id": "2faf-366b-6e8e-78c7",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "36d0-becd-7a1a-bd03", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "4f9b-dfb8-9a08-63d8", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 3}],
+        "entryLinks": [
+          {
+            "name": "Naginata",
+            "id": "c946-e474-c7d2-1e24",
+            "hidden": false,
+            "targetId": "c55b-9df7-d2d9-1148",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "2793-8114-fcac-8757",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "OnnaBugeishaNaginataGroup",
+            "id": "de00-dfc0-7d29-3c8b",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "2+1", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Loyal Bowmen Group",
+        "id": "ede9-416b-7640-c297",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "8841-9c6f-e6f3-ec97", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "05e2-d2ae-0c41-1755", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [{"name": "Bow - Standard", "id": "7e70-e8a1-53fb-1475", "hidden": false, "targetId": "710f-63fd-5768-6834", "type": "selectionEntry"}],
+        "infoLinks": [
+          {"name": "Group 3 left", "id": "090e-9619-5899-47e0", "hidden": false, "targetId": "16f5-e573-f6f2-afc0", "type": "rule"},
+          {"name": "Group 2 or 3 left", "id": "6e27-48e4-8b4c-f45c", "hidden": false, "targetId": "0b7b-c29c-1c37-cbc3", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "LoyBowmenGroup",
+            "id": "b351-bfe0-82bf-3161",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4+1", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Loyal Musketmen Group",
+        "id": "2096-3007-6db4-4fed",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "d572-53f7-2f19-bbea", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "dc5f-e7a5-45f4-495c", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 3}],
+        "entryLinks": [
+          {
+            "name": "Musket",
+            "id": "4be4-04be-dc3e-3472",
+            "hidden": false,
+            "targetId": "1a92-daed-deda-ccb1",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "48d3-7c6f-457e-1889",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Group 3 left", "id": "4b0f-e051-05dc-5f22", "hidden": false, "targetId": "16f5-e573-f6f2-afc0", "type": "rule"},
+          {"name": "Group 2 or 3 left", "id": "5298-56be-d224-e0f1", "hidden": false, "targetId": "0b7b-c29c-1c37-cbc3", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "LoyMusketmenGroup",
+            "id": "33d6-1d99-635e-0ffd",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4+1", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Loyal Spearmen Group",
+        "id": "0e7a-3d20-e3d9-911b",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "feff-0656-00b8-a577", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "3c44-a469-cb5c-78d7", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [
+          {
+            "name": "Spear",
+            "id": "8f5e-d687-a827-73d9",
+            "hidden": false,
+            "targetId": "cd86-d28a-b378-396a",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "55a3-ef6c-e3e5-0790",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Group 3 left", "id": "ff94-5dd6-2853-4f8a", "hidden": false, "targetId": "16f5-e573-f6f2-afc0", "type": "rule"},
+          {"name": "Group 2 or 3 left", "id": "aded-939b-7de5-d839", "hidden": false, "targetId": "0b7b-c29c-1c37-cbc3", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "LoySpearmenGroup",
+            "id": "6eaa-8423-35c9-aa48",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "4+1", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Experienced Spearmen Group",
+        "id": "7fbb-23e3-e0eb-c53b",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "3467-9566-089f-2fcf", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "af0c-3e52-6b4f-09a8", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [
+          {
+            "name": "Spear",
+            "id": "6db4-5655-e06c-5603",
+            "hidden": false,
+            "targetId": "cd86-d28a-b378-396a",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "aeed-422d-b3fc-b056",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Group 2 or 3 left", "id": "c774-9048-35a6-9c54", "hidden": false, "targetId": "0b7b-c29c-1c37-cbc3", "type": "rule"},
+          {"name": "Group 3 left", "id": "b148-b480-0346-a7fc", "hidden": false, "targetId": "16f5-e573-f6f2-afc0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "ExpSpearmenGroup",
+            "id": "aece-cce1-4259-f0b5",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "4", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3+1", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Experienced Musketmen Group",
+        "id": "f22d-6ab1-6c86-be12",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "5d6f-8837-b597-08d3", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "1439-0a6a-f6f9-b8e6", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 3}],
+        "entryLinks": [
+          {
+            "name": "Musket",
+            "id": "82d2-7f2a-8ca8-1061",
+            "hidden": false,
+            "targetId": "1a92-daed-deda-ccb1",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "e02e-9610-9820-7f6a",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Group 2 or 3 left", "id": "95b9-2626-6b1a-75f8", "hidden": false, "targetId": "0b7b-c29c-1c37-cbc3", "type": "rule"},
+          {"name": "Group 3 left", "id": "b0ab-cd48-9a3f-1d78", "hidden": false, "targetId": "16f5-e573-f6f2-afc0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "ExpMusketmenGroup",
+            "id": "b0a0-77ee-9891-3ac8",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "4", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3+1", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pauper Bowmen Group",
+        "id": "47ca-07d8-9867-9021",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "1771-0a6e-c34c-16f5", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "7145-61fb-e6a9-cffe", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 3}],
+        "entryLinks": [{"name": "Bow - Standard", "id": "8db0-f061-3f7a-1602", "hidden": false, "targetId": "710f-63fd-5768-6834", "type": "selectionEntry"}],
+        "infoLinks": [
+          {"name": "Group 3 left", "id": "e0b7-4cd8-d8b5-dfaf", "hidden": false, "targetId": "16f5-e573-f6f2-afc0", "type": "rule"},
+          {"name": "Group 2 or 3 left", "id": "fa8b-685e-9c62-2ee3", "hidden": false, "targetId": "0b7b-c29c-1c37-cbc3", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "PauperBowmenGroup",
+            "id": "84ab-5ea4-cadf-be31",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3+1", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Pauper Musketmen Group",
+        "id": "cab4-da2d-5d48-a392",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "b35f-0099-b231-142c", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "79ee-91ab-7227-be6d", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 3}],
+        "entryLinks": [
+          {
+            "name": "Musket",
+            "id": "bb75-baae-3e88-6098",
+            "hidden": false,
+            "targetId": "1a92-daed-deda-ccb1",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "3188-1a55-5340-17d4",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Group 3 left", "id": "1b74-dca0-d042-3b7e", "hidden": false, "targetId": "16f5-e573-f6f2-afc0", "type": "rule"},
+          {"name": "Group 2 or 3 left", "id": "7e65-0784-b76c-ad91", "hidden": false, "targetId": "0b7b-c29c-1c37-cbc3", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "PauperMusketmenGroup",
+            "id": "2ce5-498d-fd00-95b5",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "4", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3+1", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Renegade Group",
+        "id": "2066-4599-883b-24e6",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "fbc2-6e4b-df53-d8d2", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "2464-a0bc-2746-f515", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 3}],
+        "profiles": [
+          {
+            "name": "RenegadeGroup",
+            "id": "646b-0693-5df0-5957",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "3", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3+1", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ronin Thug Group",
+        "id": "5f8b-8c96-de8a-b92d",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "875a-1256-467a-7738", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "c54b-c934-3997-8b69", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "entryLinks": [
+          {
+            "name": "Katana",
+            "id": "1675-be50-4c62-1245",
+            "hidden": false,
+            "targetId": "3088-0a6e-84bb-61aa",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "5b36-01d4-5ed5-2813",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "infoLinks": [
+          {"name": "Group 2 or 3 left", "id": "8af7-3d3d-d08d-ad9c", "hidden": false, "targetId": "0b7b-c29c-1c37-cbc3", "type": "rule"},
+          {"name": "Group 3 left", "id": "7df6-93af-f4d9-ab9a", "hidden": false, "targetId": "16f5-e573-f6f2-afc0", "type": "rule"}
+        ],
+        "profiles": [
+          {
+            "name": "RoninThugGroup",
+            "id": "559c-e546-755c-a4e0",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "4", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "2+1", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sohei Bowmen Group",
+        "id": "55f3-bafd-4017-831e",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "0bdb-e13e-fe21-fa34", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "3c70-3d49-ecd2-4d4b", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 3}],
+        "entryLinks": [{"name": "Bow - Standard", "id": "661a-ec33-5e8a-4171", "hidden": false, "targetId": "710f-63fd-5768-6834", "type": "selectionEntry"}],
+        "profiles": [
+          {
+            "name": "SoheiBowmenGroup",
+            "id": "3f38-5a2d-0d3b-73b9",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "4+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "3", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "2+1", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sohei Naginata Group",
+        "id": "034b-a722-593e-cb39",
+        "collective": false,
+        "hidden": false,
+        "type": "unit",
+        "categoryLinks": [
+          {"name": "New CategoryLink", "id": "b30e-91c7-602e-380a", "hidden": false, "primary": true, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner", "id": "79be-8e57-07d7-e103", "hidden": false, "primary": false, "targetId": "6e8a-a616-fb4b-01bd"}
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 3}],
+        "entryLinks": [
+          {
+            "name": "Naginata",
+            "id": "334f-5d1b-7ae3-f755",
+            "hidden": false,
+            "targetId": "c55b-9df7-d2d9-1148",
+            "type": "selectionEntry",
+            "constraints": [
+              {
+                "id": "05ba-9a71-b98e-a12b",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "parent",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              }
+            ]
+          }
+        ],
+        "profiles": [
+          {
+            "name": "SoheiNaginataGroup",
+            "id": "e944-8e57-457e-56b1",
+            "hidden": false,
+            "typeId": "d4c9-df66-1666-511c",
+            "typeName": "Unit",
+            "characteristics": [
+              {"name": "Aim", "$text": "3+1", "typeId": "17ad-7223-50b9-6438"},
+              {"name": "Agility", "$text": "3", "typeId": "992f-8121-c299-6a0e"},
+              {"name": "Strength", "$text": "4", "typeId": "ee4d-cb1a-b2c6-d80c"},
+              {"name": "Wits", "$text": "2+1", "typeId": "d742-1d07-6af7-5e84"},
+              {"name": "Honour", "$text": "3", "typeId": "325b-0077-3745-1a0f"},
+              {"name": "Actions", "$text": "1", "typeId": "2bf9-6994-c2af-f576"}
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Spear",
+        "id": "cd86-d28a-b378-396a",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Weapon", "id": "c30e-98b1-3cc1-64fb", "hidden": false, "primary": false, "targetId": "6cc8-2883-8657-c637"}],
+        "constraints": [
+          {
+            "id": "d311-a14d-fde3-09f3",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 0}],
+        "infoLinks": [
+          {"name": "Spear", "id": "a219-4cb5-411b-3404", "hidden": false, "targetId": "74e2-cf07-48ec-57f5", "type": "profile"},
+          {"name": "Follow Up", "id": "011f-ed93-0a76-3b8c", "hidden": false, "targetId": "cb5a-4085-9c57-45f4", "type": "rule"},
+          {"name": "Impale", "id": "24df-6d81-19b2-220c", "hidden": false, "targetId": "7b44-fe91-242c-5214", "type": "rule"},
+          {"name": "Quick Jab", "id": "8a06-f771-9b33-10b8", "hidden": false, "targetId": "1cac-bd2e-0cdc-efb3", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Naginata",
+        "id": "c55b-9df7-d2d9-1148",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Weapon", "id": "dec3-4d7a-b7a7-98d4", "hidden": false, "primary": false, "targetId": "6cc8-2883-8657-c637"}],
+        "constraints": [
+          {
+            "id": "9650-5711-e675-457c",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 0}],
+        "infoLinks": [
+          {"name": "Naginata", "id": "24c5-93d0-5240-6b53", "hidden": false, "targetId": "da16-fa21-24c5-7199", "type": "profile"},
+          {"name": "Quick Jab", "id": "d84e-a6db-ab84-06f9", "hidden": false, "targetId": "1cac-bd2e-0cdc-efb3", "type": "rule"},
+          {"name": "Counter Strike", "id": "ff02-b11d-3d1e-dc71", "hidden": false, "targetId": "5117-5d24-fab9-c1fc", "type": "rule"},
+          {"name": "Follow Up", "id": "db26-07aa-538d-c92e", "hidden": false, "targetId": "cb5a-4085-9c57-45f4", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Bow - Standard",
+        "id": "710f-63fd-5768-6834",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Weapon", "id": "4027-2fa4-aaf7-8558", "hidden": false, "primary": false, "targetId": "6cc8-2883-8657-c637"}],
+        "constraints": [
+          {
+            "id": "0e15-1270-ed14-4f31",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          },
+          {
+            "id": "9686-ef01-cf32-33ee",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "min",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 0}],
+        "infoLinks": [
+          {"name": "Bow", "id": "5a74-ab4e-bf9b-0f1e", "hidden": false, "targetId": "93b9-a295-fffc-4adf", "type": "profile"},
+          {"name": "Fast Shot", "id": "cb35-8658-f86c-8544", "hidden": false, "targetId": "221d-fe6b-df50-9a05", "type": "rule"},
+          {"name": "Quick Jab", "id": "0432-064e-0f1a-349a", "hidden": false, "targetId": "1cac-bd2e-0cdc-efb3", "type": "rule"},
+          {"name": "Move Up", "id": "516f-bea8-479b-e4d6", "hidden": false, "targetId": "6821-ca3d-1c18-8bc7", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Bow - Upgrade",
+        "id": "d52a-952b-2bf3-925b",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Weapon", "id": "8994-304b-8d66-3c2a", "hidden": false, "primary": false, "targetId": "6cc8-2883-8657-c637"}],
+        "constraints": [
+          {
+            "id": "8f9c-28bd-5880-6aed",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 2}],
+        "infoLinks": [
+          {"name": "Bow", "id": "f270-51b9-dadc-a504", "hidden": false, "targetId": "93b9-a295-fffc-4adf", "type": "profile"},
+          {"name": "Fast Shot", "id": "ae05-b43a-adb1-7fee", "hidden": false, "targetId": "221d-fe6b-df50-9a05", "type": "rule"},
+          {"name": "Quick Jab", "id": "1422-33e4-d2d3-56ca", "hidden": false, "targetId": "1cac-bd2e-0cdc-efb3", "type": "rule"},
+          {"name": "Move Up", "id": "e090-47ab-d8da-57e0", "hidden": false, "targetId": "6821-ca3d-1c18-8bc7", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Unarmoured - Upgrade",
+        "id": "5b8c-6bd3-b84a-0c8a",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "constraints": [
+          {
+            "id": "1e4d-3af3-655e-365a",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 0}],
+        "infoLinks": [{"name": "Unarmoured", "id": "24f3-221e-c730-9429", "hidden": false, "targetId": "89e0-47ed-40ea-93fa", "type": "profile"}]
+      },
+      {
+        "name": "Musket",
+        "id": "1a92-daed-deda-ccb1",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Weapon", "id": "9ae9-5813-87c2-061e", "hidden": false, "primary": false, "targetId": "6cc8-2883-8657-c637"}],
+        "constraints": [
+          {
+            "id": "c5ce-234d-d8cb-0c85",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 0}],
+        "infoLinks": [
+          {"name": "Fast Shot", "id": "284e-332c-65b8-f731", "hidden": false, "targetId": "221d-fe6b-df50-9a05", "type": "rule"},
+          {"name": "Quick Jab", "id": "438b-e859-4fe1-f475", "hidden": false, "targetId": "1cac-bd2e-0cdc-efb3", "type": "rule"},
+          {"name": "Musket", "id": "7630-8860-f254-40f2", "hidden": false, "targetId": "5259-3a37-7e0d-d47b", "type": "profile"}
+        ]
+      },
+      {
+        "name": "Thrown Weapon",
+        "id": "ead2-03b0-02e9-fd14",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Weapon", "id": "e8ac-29d9-7d6d-4c32", "hidden": false, "primary": false, "targetId": "6cc8-2883-8657-c637"}],
+        "constraints": [
+          {
+            "id": "d39c-6223-5602-5faa",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 0}],
+        "infoLinks": [
+          {"name": "Thrown Weapon", "id": "da15-92e4-5c7a-4b3f", "hidden": false, "targetId": "066d-60b6-9558-7832", "type": "profile"},
+          {"name": "Fast Shot", "id": "134c-65db-d243-0d54", "hidden": false, "targetId": "221d-fe6b-df50-9a05", "type": "rule"},
+          {"name": "Quick Jab", "id": "5f10-885b-297b-896c", "hidden": false, "targetId": "1cac-bd2e-0cdc-efb3", "type": "rule"},
+          {"name": "Move Up", "id": "47de-47dd-9d0a-33ec", "hidden": false, "targetId": "6821-ca3d-1c18-8bc7", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Dagger / Short Sword",
+        "id": "9c35-b154-70ff-9953",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Weapon", "id": "39b6-cc68-2194-9a5e", "hidden": false, "primary": false, "targetId": "6cc8-2883-8657-c637"}],
+        "constraints": [
+          {
+            "id": "02b9-b040-9181-2afd",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 0}],
+        "infoLinks": [
+          {"name": "Spear", "id": "f754-780d-1b63-7a9e", "hidden": false, "targetId": "74e2-cf07-48ec-57f5", "type": "profile"},
+          {"name": "Follow Up", "id": "88ac-93ac-e312-f8ee", "hidden": false, "targetId": "cb5a-4085-9c57-45f4", "type": "rule"},
+          {"name": "Quick Jab", "id": "c80c-f942-21d8-6842", "hidden": false, "targetId": "1cac-bd2e-0cdc-efb3", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Heavy Club",
+        "id": "7045-0a7c-af2f-63ff",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Weapon", "id": "6b27-a56c-a3ad-9bb6", "hidden": false, "primary": false, "targetId": "6cc8-2883-8657-c637"}],
+        "constraints": [
+          {
+            "id": "d05c-7560-7b8c-1e61",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 0}],
+        "infoLinks": [
+          {"name": "Heavy Club", "id": "6648-4538-ccb1-c898", "hidden": false, "targetId": "253b-42f9-47fe-6472", "type": "profile"},
+          {"name": "Follow Up", "id": "bb71-9af2-cd14-01bf", "hidden": false, "targetId": "cb5a-4085-9c57-45f4", "type": "rule"},
+          {"name": "Stun", "id": "4bf9-f19a-09f4-7430", "hidden": false, "targetId": "f273-98ac-1272-a683", "type": "rule"},
+          {"name": "Quick Jab", "id": "f3c0-99ed-f8d4-e033", "hidden": false, "targetId": "1cac-bd2e-0cdc-efb3", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Heavy Sword",
+        "id": "46d1-9d81-4b03-a3f6",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Weapon", "id": "5906-0403-e114-ca99", "hidden": false, "primary": false, "targetId": "6cc8-2883-8657-c637"}],
+        "constraints": [
+          {
+            "id": "a587-4907-ba69-4c78",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 0}],
+        "infoLinks": [
+          {"name": "Heavy Sword", "id": "cc36-c572-9832-38c2", "hidden": false, "targetId": "2b06-f018-3a17-8692", "type": "profile"},
+          {"name": "Follow Up", "id": "3783-5725-deea-b5af", "hidden": false, "targetId": "cb5a-4085-9c57-45f4", "type": "rule"},
+          {"name": "Fearsome Blow", "id": "9f8c-78c4-3fbd-08fe", "hidden": false, "targetId": "1e7a-3e9e-0a0f-77a9", "type": "rule"},
+          {"name": "Deep Cut", "id": "cf82-4a17-385b-fd35", "hidden": false, "targetId": "c854-4fd1-380d-0af3", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Katana",
+        "id": "3088-0a6e-84bb-61aa",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Weapon", "id": "4e0b-7d33-966f-1d63", "hidden": false, "primary": false, "targetId": "6cc8-2883-8657-c637"}],
+        "constraints": [
+          {
+            "id": "8498-34f3-5f69-1a45",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 0}],
+        "infoLinks": [
+          {"name": "Katana", "id": "2a2b-c03e-8457-5db7", "hidden": false, "targetId": "2878-7125-588a-070c", "type": "profile"},
+          {"name": "Follow Up", "id": "3238-9444-f62f-422f", "hidden": false, "targetId": "cb5a-4085-9c57-45f4", "type": "rule"},
+          {"name": "Deep Cut", "id": "22d4-d51c-a0fb-3df9", "hidden": false, "targetId": "c854-4fd1-380d-0af3", "type": "rule"},
+          {"name": "Quick Jab", "id": "bc9f-50ea-3c5e-1d69", "hidden": false, "targetId": "1cac-bd2e-0cdc-efb3", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Paired Swords",
+        "id": "bf63-09a7-1390-5385",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Weapon", "id": "0248-ab5e-77b2-9ab6", "hidden": false, "primary": false, "targetId": "6cc8-2883-8657-c637"}],
+        "constraints": [
+          {
+            "id": "dd49-95b8-58a5-8c36",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 0}],
+        "infoLinks": [
+          {"name": "Paired Swords", "id": "80bb-8ca2-f637-4fd9", "hidden": false, "targetId": "436a-b272-cf56-c2eb", "type": "profile"},
+          {"name": "Follow Up", "id": "bbed-b1fe-0aff-b0d3", "hidden": false, "targetId": "cb5a-4085-9c57-45f4", "type": "rule"},
+          {"name": "Twin Strike", "id": "ecb2-9322-f3b6-0a2a", "hidden": false, "targetId": "091b-58a0-8826-ef15", "type": "rule"},
+          {"name": "Quick Jab", "id": "7525-4f04-d3fd-c653", "hidden": false, "targetId": "1cac-bd2e-0cdc-efb3", "type": "rule"}
+        ]
+      },
+      {
+        "name": "Staff",
+        "id": "575b-4c08-fd03-38de",
+        "collective": false,
+        "hidden": false,
+        "type": "upgrade",
+        "categoryLinks": [{"name": "Weapon", "id": "c7b3-4d93-9b7c-420b", "hidden": false, "primary": false, "targetId": "6cc8-2883-8657-c637"}],
+        "constraints": [
+          {
+            "id": "8a69-0d56-56a0-860f",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ],
+        "costs": [{"name": "Cost", "typeId": "e428-0016-51f5-3bb7", "value": 0}],
+        "infoLinks": [
+          {"name": "Staff", "id": "2f26-9184-6c3f-2d0e", "hidden": false, "targetId": "3082-a57b-aa9b-fb85", "type": "profile"},
+          {"name": "Follow Up", "id": "ff69-ada4-a77c-5b68", "hidden": false, "targetId": "cb5a-4085-9c57-45f4", "type": "rule"},
+          {"name": "Backhand Strike", "id": "abb9-0458-47c7-22d4", "hidden": false, "targetId": "c071-4572-f9ed-fb3c", "type": "rule"},
+          {"name": "Quick Jab", "id": "7da4-9277-d18b-740f", "hidden": false, "targetId": "1cac-bd2e-0cdc-efb3", "type": "rule"}
+        ]
+      }
+    ]
+  }
+}

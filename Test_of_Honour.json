@@ -1,0 +1,161 @@
+{
+  "gameSystem": {
+    "name": "Test of Honour",
+    "id": "1905-a91b-8161-d082",
+    "authorContact": "www.boardgamegeek.com/user/ragados",
+    "authorName": "Ragados",
+    "authorUrl": "http://www.ragados.com",
+    "battleScribeVersion": 2.03,
+    "revision": 1,
+    "type": "gameSystem",
+    "xmlns": "http://www.battlescribe.net/schema/gameSystemSchema",
+    "categoryEntries": [
+      {"name": "Samurai Hero", "id": "f759-8c7f-2265-6144", "hidden": false},
+      {"name": "Samurai", "id": "0f5f-1d17-c057-e1a7", "hidden": false},
+      {"name": "Commoner (Individual)", "id": "9c04-a0a3-8e96-68d9", "hidden": false},
+      {"name": "Commoner (Group)", "id": "283a-4138-9c8f-64e5", "hidden": false},
+      {
+        "name": "Commoner",
+        "id": "6e8a-a616-fb4b-01bd",
+        "hidden": false,
+        "constraints": [
+          {
+            "id": "687a-95a7-8041-ed69",
+            "field": "e428-0016-51f5-3bb7",
+            "includeChildForces": false,
+            "includeChildSelections": false,
+            "percentValue": true,
+            "scope": "roster",
+            "shared": true,
+            "type": "min",
+            "value": 30
+          }
+        ]
+      },
+      {
+        "name": "Weapon",
+        "id": "6cc8-2883-8657-c637",
+        "hidden": false,
+        "constraints": [
+          {
+            "id": "29e3-4f93-3f36-55bb",
+            "field": "selections",
+            "includeChildForces": false,
+            "includeChildSelections": true,
+            "percentValue": false,
+            "scope": "parent",
+            "shared": true,
+            "type": "max",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "costTypes": [{"name": "Cost", "id": "e428-0016-51f5-3bb7", "defaultCostLimit": -1}],
+    "forceEntries": [
+      {
+        "name": "Warband",
+        "id": "643f-0c75-b335-1fc2",
+        "hidden": false,
+        "categoryLinks": [
+          {
+            "name": "Samurai Hero",
+            "id": "1fd1-7b82-d31f-e3b0",
+            "hidden": false,
+            "primary": false,
+            "targetId": "f759-8c7f-2265-6144",
+            "constraints": [
+              {
+                "id": "87c8-f604-a54e-cf2c",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "min",
+                "value": 1
+              },
+              {
+                "id": "3251-6fd7-17fd-bab8",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 1
+              }
+            ]
+          },
+          {
+            "name": "Samurai",
+            "id": "60a5-6acf-2d63-99c8",
+            "hidden": false,
+            "primary": false,
+            "targetId": "0f5f-1d17-c057-e1a7",
+            "constraints": [
+              {
+                "id": "52f0-de87-2157-1121",
+                "field": "selections",
+                "includeChildForces": false,
+                "includeChildSelections": false,
+                "percentValue": false,
+                "scope": "roster",
+                "shared": true,
+                "type": "max",
+                "value": 2
+              }
+            ]
+          },
+          {"name": "Commoner (Group)", "id": "8ab0-6af2-71b4-ad2c", "hidden": false, "primary": false, "targetId": "283a-4138-9c8f-64e5"},
+          {"name": "Commoner (Individual)", "id": "9aad-234e-ae8a-1282", "hidden": false, "primary": false, "targetId": "9c04-a0a3-8e96-68d9"}
+        ]
+      }
+    ],
+    "profileTypes": [
+      {
+        "name": "Unit",
+        "id": "d4c9-df66-1666-511c",
+        "characteristicTypes": [
+          {"name": "Aim", "id": "17ad-7223-50b9-6438"},
+          {"name": "Agility", "id": "992f-8121-c299-6a0e"},
+          {"name": "Strength", "id": "ee4d-cb1a-b2c6-d80c"},
+          {"name": "Wits", "id": "d742-1d07-6af7-5e84"},
+          {"name": "Honour", "id": "325b-0077-3745-1a0f"},
+          {"name": "Actions", "id": "2bf9-6994-c2af-f576"}
+        ]
+      },
+      {
+        "name": "Weapon",
+        "id": "b5e8-11e8-0204-7072",
+        "characteristicTypes": [
+          {"name": "Name", "id": "e5d6-7baa-7337-5f11"},
+          {"name": "Strike", "id": "4d82-ca7f-c32a-230c"},
+          {"name": "Avoid", "id": "ed70-1f14-fe30-06cb"},
+          {"name": "Damage", "id": "cd59-7bae-5421-e5f7"}
+        ]
+      },
+      {"name": "Armour", "id": "d918-740c-5de2-f9f2", "characteristicTypes": [{"name": "Properties", "id": "82b7-4e35-9df5-33e2"}]},
+      {
+        "name": "Ranged Weapon",
+        "id": "8046-2df9-c644-8699",
+        "characteristicTypes": [
+          {"name": "Name", "id": "f809-f53b-8b90-5567"},
+          {"name": "Strike", "id": "37e7-604b-a59f-6e32"},
+          {"name": "Avoid", "id": "0221-e4e3-40d7-6808"},
+          {"name": "Damage", "id": "8d7b-c2b9-2e83-3a44"},
+          {"name": "Range", "id": "cdee-6af8-0ef4-47f3"},
+          {"name": "DamageRoll", "id": "7a35-5e5f-1033-7eb2"},
+          {"name": "SpecialRule", "id": "3a30-ac47-45be-71cf"}
+        ]
+      },
+      {
+        "name": "Skill",
+        "id": "0d45-0775-fbe1-8d0e",
+        "characteristicTypes": [{"name": "Type", "id": "b9a8-d690-6fe8-b32f"}, {"name": "Usage", "id": "5d6c-a8d6-a7f4-8865"}, {"name": "Set", "id": "d2d7-461d-4fcc-aa3e"}]
+      }
+    ]
+  }
+}
